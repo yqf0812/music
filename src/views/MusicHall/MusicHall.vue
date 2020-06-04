@@ -1,11 +1,17 @@
 <template>
-  <div class="music-hall">音乐馆</div>
+  <div class="music-hall">
+    <header-nav :title="'音乐馆'"></header-nav>
+  </div>
 </template>
 
 <script>
-export default {
-    name: 'MusicHall' 
-}
+  import HeaderNav from '../../components/header-nav/HeaderNav'
+  export default {
+      name: 'MusicHall' ,
+      components: {
+        HeaderNav
+      }
+  }
 </script>
 
 <style scoped>

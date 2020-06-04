@@ -1,10 +1,16 @@
 <template>
-  <div class="recommend">推荐</div>
+  <div class="recommend">
+    <header-nav :title="'推荐'"></header-nav>
+  </div>
 </template>
 
 <script>
+import HeaderNav from '../../components/header-nav/HeaderNav'
 export default {
-    name: 'Recommend' 
+    name: 'Recommend',
+    components: {
+      HeaderNav
+    }
 }
 </script>
 

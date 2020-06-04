@@ -1,10 +1,16 @@
 <template>
-    <div class="mine">我的</div>
+    <div class="mine">
+        <header-nav :title="'我的'"></header-nav>
+    </div>
 </template>
 
 <script>
+    import HeaderNav from '../../components/header-nav/HeaderNav'
     export default {
-        name: 'Mine'
+        name: 'Mine',
+        components: {
+            HeaderNav
+        }
     }
 </script>
 
