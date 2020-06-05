@@ -1,9 +1,11 @@
 <template>
-<div style="height:200px">
+<div class="swiper-box" style="">
     <mt-swipe :auto="4000">
-            <mt-swipe-item>1</mt-swipe-item>
-            <mt-swipe-item>2</mt-swipe-item>
-            <mt-swipe-item>3</mt-swipe-item>
+            <mt-swipe-item>
+                <img src="../../assets/images/1.jpg" alt="">
+            </mt-swipe-item>
+            <mt-swipe-item><img src="../../assets/images/1.jpg" alt=""></mt-swipe-item>
+            <mt-swipe-item><img src="../../assets/images/1.jpg" alt=""></mt-swipe-item>
     </mt-swipe>
 </div>
         
@@ -16,6 +18,12 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    .swiper-box {
+        height:150px;
+        padding: 10px;
+    }
+    .mint-swipe {
+        border-radius: 10px;
+    }
 </style>
