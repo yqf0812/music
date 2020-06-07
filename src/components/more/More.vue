@@ -1,7 +1,7 @@
 <template>
   <div class="more">
       <h3>{{title}}</h3>
-      <router-link :to='page' tag='span'>更多<i class="el-icon-arrow-right"></i></router-link>
+      <router-link style="font-size: 10px;" :to='page' tag='span'>更多<i class="el-icon-arrow-right"></i></router-link>
   </div>
 </template>
 

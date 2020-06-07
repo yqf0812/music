@@ -1,0 +1,1 @@
+export const HOT_LIST = 'hot_list'; //热门歌单

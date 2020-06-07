@@ -22,7 +22,7 @@ export default {
 <style scoped>
     .header-nav {
         width: 100%;
-        height: 50px;
+        height: 100%;
         display: flex;
         align-items: center;
         background: rebeccapurple;
